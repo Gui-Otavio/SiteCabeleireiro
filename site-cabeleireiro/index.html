@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Renato e Renildo Cabeleireiros</title>
+  <style>
+    /*ESTILO GERAL*/
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #fdfdfd;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    /*DESIGN DO MENU*/
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    nav a {
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    /*VISIBILIDADE*/
+    .apresentacao {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #fafafa;
+    }
+
+    .apresentacao h1 {
+      font-size: 36px;
+      color: #222;
+    }
+
+    .apresentacao p {
+      font-size: 18px;
+      margin-top: 15px;
+      color: #555;
+    }
+
+    /*INFORMAÇÕES IMAGENS*/
+    .galeria {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 40px 20px;
+      background-color: #f4f4f4;
+    }
+
+    .galeria img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    /*RODAPÉ*/
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!--MENU-->
+  <header>
+    <header>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="quem-somos.html">Quem Somos</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+</header>
+
+  </header>
+
+  <!--APRESENTAÇÃO-->
+  <section class="apresentacao" id="inicio">
+    <h1>Renato e Renildo Cabeleireiros</h1>
+    <p>No nosso salão, você encontra os melhores cortes, além de serviços impecáveis de barbearia e design de sobrancelhas. Tudo isso com qualidade excepcional e por um preço que cabe no seu bolso. Venha realçar sua beleza com quem entende do assunto!</p>
+  </section>
+
+  <!--IMAGENS-->
+  <section class="galeria">
+    <!-- links das imagens-->
+    <img src="https://media.istockphoto.com/id/640274128/pt/foto/barber-using-scissors-and-comb.jpg?s=612x612&w=0&k=20&c=83Oj99wpKeTKoIOgRJgIOEzu46Ar6MlIvkZUmann6Dc=" alt="Corte de cabelo 1">
+    <img src="https://www.estadao.com.br/recomenda/wp-content/uploads/2024/10/cuidados-com-a-barba-estadao.jpg.webp" alt="Corte de cabelo 2">
+    <img src="https://i1.wp.com/www.confrariadabarba.com.br/wp-content/uploads/2017/06/1.jpg?resize=713%2C475" alt="Corte de cabelo 3">
+    <img src="https://i.pinimg.com/originals/e0/0f/98/e00f9841618bf906833512fdd977be65.jpg" alt="Corte de cabelo 4">
+  </section>
+
+  <!--RODAPÉ-->
+  <footer id="contato">
+    <p>© 2025 Renato e Renildo Cabeleireiros | São Paulo - SP</p>
+    <p>Email: contato@renatoerenildo.com | Tel: (11) 99999-9999</p>
+  </footer>
+
+</body>
+</html>

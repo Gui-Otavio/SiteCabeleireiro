@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quem Somos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fdfdfd;
+    }
+
+    header {
+      background-color: #333;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 40px 0 20px;
+      color: #222;
+    }
+
+    .secao {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px 10%;
+      flex-wrap: wrap;
+    }
+
+    .secao.inversa {
+      flex-direction: row-reverse;
+    }
+
+    .texto {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .texto h2 {
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    .texto p {
+      color: #555;
+      font-size: 16px;
+    }
+
+    .imagem {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .imagem img {
+      width: 100%;
+      max-width: 380px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="quem-somos.html">Quem Somos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <h1>Quem Somos</h1>
+
+  <!-- Missão -->
+  <section class="secao">
+    <div class="texto">
+      <h2>Missão</h2>
+      <p>Oferecer serviços de beleza com excelência, carinho e profissionalismo, proporcionando bem-estar e autoestima aos nossos clientes.</p>
+    </div>
+    <div class="imagem">
+      <img src="https://cdn-icons-png.flaticon.com/512/1628/1628441.png" alt="Missão">
+    </div>
+  </section>
+
+  <!-- Visão -->
+  <section class="secao inversa">
+    <div class="texto">
+      <h2>Visão</h2>
+      <p>Ser referência na região em cuidados com a beleza, reconhecido pela inovação, atendimento e resultados que encantam nossos clientes.</p>
+    </div>
+    <div class="imagem">
+      <img src="https://cdn-icons-png.flaticon.com/512/709/709724.png" alt="Visão">
+    </div>
+  </section>
+
+  <!-- Valores -->
+  <section class="secao">
+    <div class="texto">
+      <h2>Valores</h2>
+      <p>Ética, respeito, dedicação, empatia, inovação e amor pelo que fazemos. Esses são os pilares que sustentam nosso trabalho todos os dias.</p>
+    </div>
+    <div class="imagem">
+      <img src="https://www.unirio.br/proad/daa/imagens/lampadadeideia.png/image" alt="Valores">
+    </div>
+  </section>
+
+</body>
+</html>
